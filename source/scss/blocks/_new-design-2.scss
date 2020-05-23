@@ -1,0 +1,45 @@
+.new-design-2 {
+  position: relative;
+  padding-top: 85px;
+  padding-bottom: 90px;
+  overflow: hidden;
+  &::before {
+    content: "";
+  
+    position: absolute;
+  
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+  
+    height: 400px;
+    width: 400px;
+    
+    border: 320px solid transparent;
+    border-left: 320px solid #ff8a8a;
+    border-bottom: 320px solid #ff8a8a;
+
+  }
+  
+}
+.new-design-2__macbook {
+  float: left;
+  width: 650px;
+}
+.new-design-2__left-col {
+  width: 600px;
+  padding-top: 55px;
+  padding-right: 100px;
+  float: right;
+}
+
+.new-design-2__suptitle {
+  margin-bottom: 20px;
+}
+
+.new-design-2__tagline {
+  display: block;
+
+  margin-bottom: 40px;
+}
+

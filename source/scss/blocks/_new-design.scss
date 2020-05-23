@@ -1,0 +1,55 @@
+.new-design {
+  position: relative;
+  padding-top: 175px;
+  padding-bottom: 165px;
+  background-color: #fff;
+}
+.new-design__container {
+  display: flex;
+  justify-content: space-between;
+}
+.new-design__suptitle {
+  margin-bottom: 5px;
+}
+
+.new-design__tagline {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.new-design__text-top {
+  margin-bottom: 25px;
+}
+
+.new-design__left-col {
+  width: 585px;
+}
+
+.new-design__right-col {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 570px;
+  height: 725px;
+  background-color: #ececec;
+  background-image: url(../img/two__bears.jpg);
+  background-size: cover;
+  background-position: center;
+
+  &::before {
+    content: "";
+  
+    position: absolute;
+  
+    right: 0;
+    bottom: 0;
+  
+    height: 400px;
+    width: 400px;
+    border: 285px solid transparent;
+    border-right: 285px solid #fb8686; 
+    border-bottom: 285px solid #fb8686;
+    opacity: .85;
+  }
+  
+}

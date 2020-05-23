@@ -1,0 +1,111 @@
+.suptitle {
+  font-family: 'Exo Medium', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ff6d6d;
+}
+
+.tagline {
+  font-family: 'Exo Medium', Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: #282828;
+}
+.heading {
+  font-family: 'Exo Medium', Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: #282828
+}
+.tagline--white {
+  color: #fff;
+}
+ 
+.heading--white {
+  color: #fff;
+  font-family: 'Exo Thin', Arial, Helvetica, sans-serif;
+  
+}
+.text {
+  font-family: 'Exo Medium', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: #282828;
+  opacity: .66;
+}
+
+.red-dots {
+  font-family: 'Exo Medium', Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: #ff6d6d;
+  letter-spacing: 3px;
+}
+
+.triple-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.triple-flex__item {
+  width: 30%;
+  text-align: center;
+}
+
+.button {
+  border: none;
+  border-radius: 3px;
+  background-color: #ff6d6d;
+  text-transform: uppercase;
+  font-family: 'Exo Regular', Arial, Helvetica, sans-serif;
+  color: #fff;
+  width: 190px;
+  height: 50px;
+  transition: .3s;
+  box-shadow: 0 7px 10px -2px rgba(0,0,0,0.5);
+  
+  &:hover,
+  &:focus {
+    outline: none;
+    background-color: rgb(110, 44, 50);
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  &:active {
+    opacity: .3;
+    transition: none;
+  }
+}
+
+.text__input {
+  font-family: 'Exo Regular', Arial, Helvetica, sans-serif;
+  
+  height: 50px;
+  width: 263px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: rgba($color: #fff, $alpha: 0.15);
+  border: 2px solid rgba($color: #fff, $alpha: 0.5);
+  border-radius: 3px;
+ 
+  &::placeholder {
+    font-family: 'Exo Regular', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  &:active,
+  &:focus {
+    outline: none;
+    &::placeholder {
+      color: transparent;
+    }
+  }
+}
+
+.text__input--gray {
+  background-color: rgba($color: #000, $alpha: 0.04);
+  border: 2px solid rgba($color: #000, $alpha: 0.10);
+  &::placeholder {
+    color: rgba(0,0,0,0.4);
+  }
+}
+

@@ -1,0 +1,46 @@
+.browser {
+  position: relative;
+  padding-top: 100px;
+  overflow: hidden;
+  &::before {
+    content: "";
+  
+    position: absolute;
+  
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  
+    height: 300px;
+    width: 300px;
+
+    border: 300px solid transparent;
+    border-bottom: 300px solid #ff8a8a;
+    border-right: 300px solid #ff8a8a;
+    background-image: url();
+  }
+}
+
+.browser__container {
+  text-align: center;
+}
+
+.browser__suptitle {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.browser__tagline {
+  display: block;
+  margin-bottom: 40px;
+}
+
+.browser__text {
+  width: 666px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.browser__image {
+  margin-bottom: -20px;
+}

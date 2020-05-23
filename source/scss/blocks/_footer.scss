@@ -1,0 +1,142 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.footer__logo {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-size: 27px;
+  color: #282828;
+  margin-bottom: 20px;
+  img {
+    margin-bottom: -15px;
+  }
+}
+
+.footer__address {
+  font-family: 'Exo Medium', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  color: rgba($color: #282828, $alpha: 0.56);
+}
+
+.footer__heading {
+  margin-bottom: 20px;
+}
+
+.footer__link {
+  font-family: 'Exo Regular', Arial, Helvetica, sans-serif;
+  
+  color: rgba($color: #282828, $alpha: 0.56);
+  text-decoration: none;
+  line-height: 30px;
+
+  &:hover {
+    color: rgba($color: #282828, $alpha: 1.0);
+  }
+}
+.footer__form {
+  position: relative;
+  margin-bottom: 20px;
+}
+.footer__email-button {
+  content: "";
+
+  position: absolute;
+
+  right: 0;
+  bottom: 0;
+
+  height: 50px;
+  width: 49px;
+
+  border: none;
+  border-radius: 3px;
+  background-color: #ff6d6d;
+  background-image: url(../img/doodle-airplane.png);
+  background-position: center;
+  background-repeat: no-repeat;
+
+  transition: .3s;
+  &:hover {
+    cursor: pointer;
+    background-color: rgb(110, 44, 50);
+  }
+}
+
+.footer__social-list {
+  display: flex;
+  justify-content: space-between;
+  width: 155px;
+  margin: 0 auto;
+  align-items: baseline;
+}
+.footer__social-item {
+  width: 21px;
+  height: 21px;
+}
+.footer__social-link--dribbling {
+  display: block;
+  width: 20px;
+  height: 21px;
+  filter: saturate(0%);
+  transition: .3s;
+  
+
+  &:hover,
+  &:focus {
+    filter: saturate(100%);
+  }
+  &:active {
+    filter: saturate(66%);
+  }
+}
+.footer__social-link--facebook {
+  display: block;
+  height: 21px;
+  width: 11px;
+  filter: saturate(0%);
+  transition: .3s;
+  
+
+  &:hover,
+  &:focus {
+    filter: saturate(100%);
+  }
+  &:active {
+    filter: saturate(66%);
+  }
+}
+.footer__social-link--google {
+  display: block;
+  height: 17px;
+  width: 20px;
+  filter: saturate(0%);
+  transition: .3s;
+  
+
+  &:hover,
+  &:focus {
+    filter: saturate(100%);
+  }
+  &:active {
+    filter: saturate(66%);
+  }
+}
+.footer__social-link--twitter {
+  display: block;
+  height: 17px;
+  width: 19px;
+  filter: saturate(0%);
+  transition: .3s;
+  
+
+  &:hover,
+  &:focus {
+    filter: saturate(100%);
+  }
+  &:active {
+    filter: saturate(66%);
+  }
+}

@@ -1,0 +1,68 @@
+
+@font-face {
+  font-family: 'Exo Italic';
+  src: url('../fonts/Exo-Italic.woff2'),
+      url('../fonts/Exo-Italic.woff');
+}
+@font-face {
+  font-family: 'Exo Medium';
+  src: url('../fonts/Exo-Medium.woff2'),
+       url('../fonts/Exo-Medium.woff');
+}
+@font-face {
+  font-family: 'Exo Regular';
+  src: url('../fonts/Exo-Regular.woff2'),
+       url('../fonts/Exo-Regular.woff');
+}
+@font-face {
+  font-family: 'Exo Thin';
+  src: url('../fonts/Exo-Thin.woff2'),
+       url('../fonts/Exo-Thin.woff'),
+}
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato-Regular.woff2'),
+       url('../fonts/Lato-Regular.woff');
+}
+////////////////////////////////////////////////////////
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+////////////////////////////////////////////////////////
+
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important; 
+	width: 1px !important; 
+	overflow: hidden;
+}
+////////////////////////////////////////////////////////
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+////////////////////////////////////////////////////////
+
+.container {
+  width: 1170px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  margin: 0 auto;
+}
