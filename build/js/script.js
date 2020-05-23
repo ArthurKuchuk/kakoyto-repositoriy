@@ -31,3 +31,4 @@ let hideModal = function() {
 headerModalPlayBtn.addEventListener("click", showModal);
 
 headerModalCloseBtn.addEventListener("click", hideModal);
+headerModal.addEventListener("click", hideModal);
