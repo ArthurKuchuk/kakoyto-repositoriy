@@ -75,7 +75,7 @@ function css() {
       })
     )
     .pipe(dest(path.build.css))
-    .pipe(browsersync.stream())
+    .pipe(browsersync.reload({stream: true}))
 }
 
 function js() {
@@ -90,7 +90,7 @@ function js() {
     )
     .pipe(dest(path.build.js))
     .pipe(browsersync.stream())
-}
+  }
 function img() {
   return src(path.src.img)
     .pipe(imagemin({
